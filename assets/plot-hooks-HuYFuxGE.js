@@ -1,0 +1,1 @@
+import{St as e,xt as t}from"./tags-repo-BJTy0E1T.js";var n=[];function r(){return e(async()=>(await t.plots.orderBy(`updatedAt`).reverse().toArray()).filter(e=>!e.deletedAt),[])}function i(){return e(async()=>(await t.plots.toArray()).filter(e=>e.deletedAt),[])??n}function a(n){return e(async()=>n?await t.plots.get(n)??null:null,[n])}export{r as n,i as r,a as t};
